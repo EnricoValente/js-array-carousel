@@ -36,9 +36,33 @@ for(let i = 0; i < imagesList.length; i++) {
 };
 
 
-const arrowUp = querySelector('.up');
+const arrowUp = document.querySelector('.up');
 
 let counter = 0;
 
-const allItems = querySelector()
+const allItems = document.querySelectorAll('.image-item');
 
+arrowUp.addEventListener('click', function () {
+    if(counter < 4){
+        allItems[counter].classList.remove('active');
+        counter++;
+        allItems[counter].classList.add('active');
+    }
+
+
+    
+})
+
+
+const arrowDown = document.querySelector('.down');
+
+arrowDown.addEventListener('click', function () {
+    if(counter > 0){
+        allItems[counter].classList.remove('active');
+        counter--;
+        allItems[counter].classList.add('active');
+    }
+
+
+    
+});
