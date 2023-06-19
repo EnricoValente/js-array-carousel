@@ -1,44 +1,43 @@
 .container {
-    max-width:900px; 
-    margin: 0 auto;
+    max-width:900px;
+    margin: 0 auto; 
+    
+    
+}
+
+.images-container {
+    width: 600px;
+    margin: 50px auto;
     position: relative;
 }
 
+.image-item {
+    width:600px;
+    height: 300px;
+    margin: 0 auto;
 
-.img-container {
-    width: 100%;
-    height: 500px;
-    margin:50px auto;
 }
 
-.img-container > img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-
-.item {
+.none {
     display: none;
 }
 
-.first-icon {
-    position: absolute;
-    top: 10px;
-    left: 450px;
-    background-color: lightgrey;
-    border-radius: 50%;
-}
-    
 
+.image-item > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 
-.second-icon {
-    
-    position: absolute;
-    bottom: 10px;
-    left: 450px;
-    background-color: lightgrey;
-    border-radius: 50%;
-    
 }
 
+.up {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+}
+
+.down {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+}
