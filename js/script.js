@@ -15,7 +15,7 @@ for(let i = 0; i < imagesList.length; i++) {
     if (i == 0) {
         imagesContainer.innerHTML = imagesContainer.innerHTML + `
     
-        <div class="image-item">
+        <div class="image-item active">
             <img src="${imagesList[i]}" alt="">
         </div>
     
@@ -25,7 +25,7 @@ for(let i = 0; i < imagesList.length; i++) {
     else {
         imagesContainer.innerHTML = imagesContainer.innerHTML + `
     
-        <div class="image-item none">
+        <div class="image-item">
             <img src="${imagesList[i]}" alt="">
         </div>
     
@@ -36,5 +36,9 @@ for(let i = 0; i < imagesList.length; i++) {
 };
 
 
+const arrowUp = querySelector('.up');
 
+let counter = 0;
+
+const allItems = querySelector()
 

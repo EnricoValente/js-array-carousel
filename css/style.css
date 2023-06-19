@@ -13,14 +13,16 @@
 
 .image-item {
     width:600px;
-    height: 300px;
+    height: 350px;
     margin: 0 auto;
-
-}
-
-.none {
     display: none;
+
 }
+
+.active {
+    display: inline-block;
+}
+
 
 
 .image-item > img {
@@ -32,12 +34,12 @@
 
 .up {
     position: absolute;
-    top: 0px;
+    top: 10px;
     left: 50%;
 }
 
 .down {
     position: absolute;
-    bottom: 0px;
+    bottom: 10px;
     left: 50%;
 }
